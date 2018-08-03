@@ -1,0 +1,55 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/Users/ith/Developer/Cordova Projects/cordova-plugin-sqlite",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/Users/ith/Developer/Cordova Projects/cordova-plugin-sqlite",
+        "spec": "/Users/ith/Developer/Cordova Projects/cordova-plugin-sqlite",
+        "type": "directory"
+      },
+      "/Users/ith/Developer/Cordova Projects/sqlitedemo2"
+    ]
+  ],
+  "_from": "../cordova-plugin-sqlite",
+  "_id": "cordova-plugin-template@1.0.0",
+  "_inCache": true,
+  "_location": "/cordova-plugin-template",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/Users/ith/Developer/Cordova Projects/cordova-plugin-sqlite",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/Users/ith/Developer/Cordova Projects/cordova-plugin-sqlite",
+    "spec": "/Users/ith/Developer/Cordova Projects/cordova-plugin-sqlite",
+    "type": "directory"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "file:../cordova-plugin-sqlite",
+  "_shasum": "e7a79ac20c7ba60c995f7bd0f2a7ca884663509b",
+  "_shrinkwrap": null,
+  "_spec": "/Users/ith/Developer/Cordova Projects/cordova-plugin-sqlite",
+  "_where": "/Users/ith/Developer/Cordova Projects/sqlitedemo2",
+  "cordova": {
+    "id": "cordova-plugin-template",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "dependencies": {},
+  "description": "A starting point for a Cordova Plugin",
+  "devDependencies": {},
+  "gitHead": "91f1ef6c246a71a75ab9f6cb70029972a0930039",
+  "name": "cordova-plugin-template",
+  "optionalDependencies": {},
+  "readme": "Cordova Plugin Template\n======\n\nThis is a simple starting point for building a Cordova plugin on iOS and Android.\n",
+  "readmeFilename": "README.md",
+  "version": "1.0.0"
+}

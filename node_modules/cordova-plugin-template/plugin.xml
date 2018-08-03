@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="my-cordova-plugin"
+    version="1.0.0">
+    <name>Cordova Plugin Template</name>
+    <description></description>
+    <license>MIT</license>
+    <keywords></keywords>
+    <repo>https://github.com/driftyco/cordova-plugin-template.git</repo>
+    <issue>https://github.com/driftyco/cordova-plugin-template/issues</issue>
+
+    <!-- ios -->
+    <platform name="ios">
+        <js-module src="www/plugin.js" name="plugin">
+            <runs/>
+            <clobbers target="SqliteConnect" />
+        </js-module>
+        <config-file target="config.xml" parent="/*">
+            <feature name="SqliteConnect">
+                <param name="ios-package" value="SqliteConnect" onload="true" />
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/SqliteConnect.h" />
+        <source-file src="src/ios/SqliteConnect.m" />
+        <header-file src="src/ios/SqliteHelper.h" />
+        <source-file src="src/ios/SqliteHelper.m" />
+    </platform>
+</plugin>
